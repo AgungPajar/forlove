@@ -1,0 +1,74 @@
+/* Reset default margin and padding */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: 'Preahvihear', sans-serif;
+  background-image: url('pink.png'); /* Ganti 'background.png' dengan path ke file PNG Anda */
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  color: black;
+}
+
+.container {
+  text-align: center;
+  max-width: 800px;
+  padding: 20px;
+}
+
+h1 {
+  font-size: 2.5rem;
+  margin-bottom: 20px;
+}
+
+p {
+  font-size: 1.2rem;
+  margin-bottom: 30px;
+}
+
+.button-container {
+  display: flex;
+  justify-content: center; /* Ubah dari space-around menjadi center */
+  width: 100%; /* Pastikan kontainer penuh lebar */
+  gap: 50px; /* Jarak antara tombol */
+}
+
+button {
+  padding: 15px 30px;
+  font-size: 1.5rem;
+  border: 2px solid #7949FF;
+  background-color: transparent;
+  color: #7949FF;
+  border-radius: 10px;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+}
+
+button:hover {
+  background-color: rgba(227, 172, 235, 0.69);
+}
+
+.button {
+  display: inline-block;
+  padding: 10px 25px;
+  font-size: 1.5rem;
+  border: 2px solid #7949FF;
+  background-color: transparent;
+  color: #7949FF;
+  border-radius: 10px;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+  text-decoration: none;
+}
+
+.button:hover {
+  background-color: rgba(227, 172, 235, 0.69);
+}
